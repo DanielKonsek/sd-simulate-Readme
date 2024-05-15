@@ -68,28 +68,33 @@ Of course, no one template will serve all projects since your needs may be diffe
 ## Getting Started
 
 ### Prerequisites
-In order to use this tool you will need the latest Version of Python as well as Graphviz
+In order to use this tool you will need to install Python as well as Graphviz
 
 * The latest version of Python can be found [here][python-url].
 * The latest version of Graphviz can be found [here][graphviz-url].
 
 ### Installation
+If you are having trouble installing the required Python3 Libraries see [here][python-help]
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Clone the repository
+   ```sh
+   git clone https://github.com/fmidue/sd-simulate
+   ```
+   or Download and save locally
+2. Install [Cairosvg][cairosvg-package]
+   ```sh
+   pip install pycairo
+   ```
+3. Install [Graphviz-pylib][graphviz-package]
+   ```sh
+   pip install graphviz
+   ```
+3. Install [Pycario][pycario-package]
+   ```sh
+   pip install graphviz
+   ```
+4. Navigate to and [run][python-help2] main.py
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,5 +115,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [python-url]: https://www.python.org/downloads/
+[python-help]: https://packaging.python.org/en/latest/tutorials/installing-packages/
+[python-help2]: https://pythonbasics.org/execute-python-scripts/
 [graphviz-url]: https://graphviz.org/download/
+[graphviz-package]: https://pypi.org/project/graphviz/
+[cairosvg-package]: https://cairosvg.org/
+[pycario-package]: https://pypi.org/project/pycairo/
 
