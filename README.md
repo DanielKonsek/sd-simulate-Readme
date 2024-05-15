@@ -122,3 +122,4 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 [cairosvg-package]: https://cairosvg.org/
 [pycario-package]: https://pypi.org/project/pycairo/
 
+[product-screenshot]: images/screenshot.png
