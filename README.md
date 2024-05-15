@@ -31,9 +31,9 @@
   <h3 align="center">SD-Simulate</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A simple tool to interact with and simulate state diagrams
     <br />
-    <a href="#About-The-Project"><strong>About the Project</strong></a>
+    <a href="#About-The-Project">About the Project</a>
     ·
     <a href="#Getting-Started">Getting Started</a>
     ·
