@@ -34,9 +34,8 @@
     An awesome README template to jumpstart your projects!
     <br />
     <a href="#About-The-Project"><strong>About the Project</strong></a>
-    <br />
-    <br />
-    <a href="#Getting-Started">Getting-Started</a>
+    ·
+    <a href="#Getting-Started">Getting Started</a>
     ·
     <a href="#Usage">Usage</a>
   </p>
