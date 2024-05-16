@@ -54,8 +54,8 @@ With this tool, you can display and analyze UML state diagrams to get a better u
 
 * generate the corresponding reachability graph
 * reachability analysis
-* Maxnode analysis to find a transition sequence covering as many states as possible
-* Maxtransition analysis to find the longest transition sequence possible
+* maxnode analysis to find a transition sequence covering as many states as possible
+* maxtransition analysis to find the longest transition sequence possible
 
 <br/>
 
@@ -107,7 +107,7 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 ## Usage
 
 <br/>
-<strong>[<u>Load UML Diagram</u>]</strong> and navigate to the .svg or .txt file containing your graph <br>
+<strong>[Load UML Diagram]</strong> and navigate to the .svg or .txt file containing your graph <br>
 <strong>[Show containtment]</strong> to highlight the currently active region in red <br>
 <strong>[Hint]</strong> to highlight the currently reachable states <br>
 <strong>[Show State Diagram Graph]</strong> to generate the corresponding reachability graph<br>
