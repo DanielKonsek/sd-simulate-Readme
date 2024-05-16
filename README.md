@@ -110,7 +110,7 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 <strong>[Load UML Diagram]</strong> and navigate to the .svg or .txt file containing your graph <br>
 <strong>[Show containtment]</strong> to highlight the currently active region in red <br>
 <strong>[Hint]</strong> to highlight the currently reachable states <br>
-<strong>[Show State Diagram Graph]</strong> to generate the corresponding [reachability graph][product-screenshot2]<br>
+<strong>[Show State Diagram Graph]</strong> to generate the corresponding reachability graph<br>
 <strong>[Reachability analysis]</strong> find all reachable states from the initial state <br>
 <strong>[Max Node Analysis]</strong> find a transition sequence that contains as many states as possible <br>
 <strong>[Max transition Analysis]</strong> to find a transition sequence that contains as many transitions as possible <br>
