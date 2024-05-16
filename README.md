@@ -107,7 +107,7 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 ## Usage
 
 <br/>
-<strong>[Load UML Diagram]</strong> and navigate to the .svg or .txt file containing your graph <br>
+<strong>[<u>Load UML Diagram</u>]</strong> and navigate to the .svg or .txt file containing your graph <br>
 <strong>[Show containtment]</strong> to highlight the currently active region in red <br>
 <strong>[Hint]</strong> to highlight the currently reachable states <br>
 <strong>[Show State Diagram Graph]</strong> to generate the corresponding reachability graph<br>
