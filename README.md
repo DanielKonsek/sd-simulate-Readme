@@ -57,11 +57,7 @@ With this tool you can display and analyse UML state diagams to get a better und
 * Maxnode analysis finding a transition sequence covering as many states as possible
 * Maxtransition analysis to find the longest transition sequence possible
 
-<br />
-
-
-
-
+<br/>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,8 +104,11 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 <!-- USAGE EXAMPLES -->
 <a name="Usage"></a>
 ## Usage
+<br/>
+<strong>Load UML Diagram</strong> and navigate to the .svg or .txt file containing your Graph
+asdasd
 
-_
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
