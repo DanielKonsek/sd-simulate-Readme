@@ -49,12 +49,12 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-With this tool you can display and analyse UML state diagams to get a better understanding how transitions and regions interact with each other.
+With this tool, you can display and analyze UML state diagrams to get a better understanding of how transitions and regions interact with each other.
 <br/>
 
 * generate the corresponding reachability graph
 * reachability analysis
-* Maxnode analysis finding a transition sequence covering as many states as possible
+* Maxnode analysis to find a transition sequence covering as many states as possible
 * Maxtransition analysis to find the longest transition sequence possible
 
 <br/>
@@ -69,13 +69,13 @@ With this tool you can display and analyse UML state diagams to get a better und
 ## Getting Started
 
 ### Prerequisites
-In order to use this tool you will need to install Python as well as Graphviz on your device
+In order to use this tool, you will need to install Python as well as Graphviz on your device.
 
 * The latest version of Python can be found [here][python-url].
 * The latest version of Graphviz can be found [here][graphviz-url].
 
 ### Installation
-If you are having trouble installing the required Python3 Libraries see [here][python-help]
+If you are having trouble installing the required Python3 Libraries see [here][python-help].
 
 1. Clone the repository
    ```sh
@@ -105,9 +105,13 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 <a name="Usage"></a>
 ## Usage
 <br/>
-<strong>Load UML Diagram</strong> and navigate to the .svg or .txt file containing your Graph
-asdasd
-
+<strong>Load UML Diagram</strong> and navigate to the .svg or .txt file containing your graph <br>
+<strong>Show containtment</strong> to highlight the currently active region in red <br>
+<strong>Hint</strong> to highlight the currently reachable states <br>
+<strong>Show State Diagram Graph</strong> to generate the corresponding [reachability graph][product-screenshot2] <br>
+<strong>Reachability analysis</strong> find all reachable states from the initial state <br>
+<strong>Max Node Analysis</strong> find a transition sequence that contains as many states as possible <br>
+<strong>Max transition Analysis</strong> to find a transition sequence that contains as many transitions as possible <br>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,3 +129,4 @@ asdasd
 [pycario-package]: https://pypi.org/project/pycairo/
 
 [product-screenshot]: images/screenshot.png
+[product-screenshot2]: images/reachability.png
