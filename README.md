@@ -31,7 +31,7 @@
   <h3 align="center">SD-Simulate</h3>
 
   <p align="center">
-    A simple tool to interact with and simulate state diagrams
+    A simple way to view and simulate UML state diagrams
     <br />
     <a href="#About-The-Project">About the Project</a>
     ·
@@ -49,14 +49,19 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+With this tool you can display and analyse UML state diagams to get a better understanding how transitions and regions interact with each other.
+<br/>
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* generate the corresponding reachability graph
+* reachability analysis
+* Maxnode analysis finding a transition sequence covering as many states as possible
+* Maxtransition analysis to find the longest transition sequence possible
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+<br />
+
+
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -68,7 +73,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 ## Getting Started
 
 ### Prerequisites
-In order to use this tool you will need to install Python as well as Graphviz
+In order to use this tool you will need to install Python as well as Graphviz on your device
 
 * The latest version of Python can be found [here][python-url].
 * The latest version of Graphviz can be found [here][graphviz-url].
@@ -91,7 +96,7 @@ If you are having trouble installing the required Python3 Libraries see [here][p
    ```
 3. Install [Pycario][pycario-package]
    ```sh
-   pip install graphviz
+   pip install pycairo
    ```
 4. Navigate to and [run][python-help2] main.py
 
@@ -104,9 +109,7 @@ If you are having trouble installing the required Python3 Libraries see [here][p
 <a name="Usage"></a>
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
